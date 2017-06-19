@@ -587,11 +587,16 @@
 					<div class="col-md-9">
 						<div class="col-md-11">
 							<div class="h4">Say hello!</div>
-							<form method="post">
-								<input type="text" class="short" placeholder="Name">
-								<input type="text" class="short" placeholder="Email">
-								<input type="text" class="long" placeholder="Message">
-								<a href=""><i class="fa fa-envelope-o mail"></i>Send message</a>
+							<form method="post" class="form">
+							<!-- Hidden Required Fields -->
+								<input type="hidden" name="project_name" value="Brandi Template">
+								<input type="hidden" name="admin_email" value="mcmb1981@gmail.com">
+								<input type="hidden" name="form_subject" value="Main form request">
+							<!-- END Hidden Required Fields -->
+								<input type="text" class="short"  name="Name" placeholder="Name" required>
+								<input type="text" class="short outshort" name="Email" placeholder="Email" required>
+								<input type="text" class="long" name="Message" placeholder="Message">
+								<button><i class="fa fa-envelope-o mail"></i>Send message</button>
 							</form>
 						</div>
 						<div class="col-md-1">
