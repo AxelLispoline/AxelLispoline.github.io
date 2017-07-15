@@ -35,8 +35,10 @@
 </div>
 
 	<header id="Home">
-		<div class="top_line">
-			<div class="h_logo col-md-6">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="top_line hidden-xs show-sm show-md show-lg">
+			<div class="h_logo col-xs-4 col-sm-6">
 				<img src="img/logo.svg" alt="Brandi Website Template">
 				<div class="h_sub"><span> | </span> I am your tag line </div>
 			</div>
@@ -52,6 +54,28 @@
 				</nav>
 			</div>
 		</div>
+		<a href="#nav" class="hamburger hamburger--spring  show-xs hidden-sm hidden-md hidden-lg">
+			<span class="hamburger-box">
+				<span class="hamburger-inner"></span>
+			</span>
+		</a>
+		<div class="menu-xs show-xs hidden-sm hidden-md hidden-lg" id="nav">
+			<nav>
+			<div class="xs-slog">
+				<img src="img/logo.svg" alt="Brandi Website Template">
+				<div class="h_sub"><span> | </span> I am your tag line </div>
+			</div>
+			
+					<ul>
+						<li><a href="#Home">Home</a></li>
+						<li><a href="#Features">Features</a></li>
+						<li><a href="#Works">Works</a></li>
+						<li><a href="#Contact">Contact</a></li>
+					</ul>
+			</nav>
+		</div>
+		</div>
+	</div>
 		<div class="owl-carousel header-carousel">
 			<div class="slide owl-height" style="background-image: url(img/h_bg1.png);" >
 				<div class="h2">Meet <strong>Brandi!</strong> </div>
@@ -234,7 +258,7 @@
 			<button type="button" data-filter=".category-c">Logo Design</button>
 			<button type="button" data-filter=".category-d">Photography</button>
 		</div>
-    <div class="mix category-a grid" data-order="1">
+    <div class="mix category-a grid col-md-3" data-order="1">
     <figure class="effect-apollo">
     <img src="img/Works/1.png" alt="" class="img-responsive">
     <figcaption>
@@ -244,7 +268,7 @@
     </figcaption>
     </figure>
     </div>
-    <div class="mix category-b grid" data-order="2">
+    <div class="mix category-b grid col-md-3" data-order="2">
     	<figure class="effect-apollo">
     	<img src="img/Works/2.png" alt="" class="img-responsive">
     		<figcaption>
@@ -254,7 +278,7 @@
     		</figcaption>
     	</figure>
     </div>
-    <div class="mix category-b category-c grid" data-order="3">
+    <div class="mix category-b category-c grid col-md-3" data-order="3">
     	<figure class="effect-apollo">
     		<img src="img/Works/3.png" alt="" class="img-responsive">
     		<figcaption>
@@ -265,7 +289,7 @@
     		</figcaption>
     	</figure>
     </div>
-    <div class="mix category-a category-d grid" data-order="4">
+    <div class="mix category-a category-d grid col-md-3" data-order="4">
     	<figure class="effect-apollo">
     		<img src="img/Works/4.png" alt="" class="img-responsive">
     		<figcaption>
@@ -276,7 +300,7 @@
     		</figcaption>
     	</figure>
     </div>
-    <div class="mix category-b grid" data-order="5">
+    <div class="mix category-b grid col-md-3" data-order="5">
     	<figure class="effect-apollo">
     		<img src="img/Works/5.png" alt="" class="img-responsive">
     		<figcaption>
@@ -286,7 +310,7 @@
     		</figcaption>
     	</figure>
     </div>
-    <div class="mix category-a category-d grid" data-order="6">
+    <div class="mix category-a category-d grid col-md-3" data-order="6">
     	<figure class="effect-apollo">
     		<img src="img/Works/6.png" alt="" class="img-responsive">
     		<figcaption>
@@ -296,7 +320,7 @@
     		</figcaption>
     	</figure>
     </div>
-    <div class="mix category-a category-d grid" data-order="7">
+    <div class="mix category-a category-d grid col-md-3" data-order="7">
     	<figure class="effect-apollo">
     		<img src="img/Works/7.png" alt="" class="img-responsive">
     		<figcaption>
@@ -306,7 +330,7 @@
     		</figcaption>
     	</figure>
     </div>
-    <div class="mix category-b category-c grid" data-order="8">
+    <div class="mix category-b category-c grid col-md-3" data-order="8">
     	<figure class="effect-apollo">
     		<img src="img/Works/8.png" alt="" class="img-responsive">
     		<figcaption>
@@ -321,7 +345,7 @@
 
 <!-- End Work_Wrapper -->
 
-<section class="s-team" id="Team">
+<section class="s-team hidden-xs" id="Team">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="h3"><strong>meet our team</strong></div>
@@ -333,7 +357,7 @@
 		<div class="owl-carousel team-carousel">
 			<div class="slide_wrapper">
 				<figure class="team-slide">
-					<img src="img/Team/1.png" alt="">
+					<img src="img/Team/1.png" class="img-responsive" alt="">
 					<figcaption>
 						<div class="h5">Раз два три</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam amet voluptatum incidunt suscipit facere</p>
@@ -349,7 +373,7 @@
 			</div>
 			<div class="slide_wrapper">
 				<figure class="team-slide">
-					<img src="img/Team/2.png" alt="">
+					<img src="img/Team/2.png"  class="img-responsive" lt="">
 					<figcaption>
 						<div class="h5">Раз два три</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam amet voluptatum incidunt suscipit facere</p>
@@ -365,7 +389,7 @@
 			</div>
 			<div class="slide_wrapper">
 				<figure class="team-slide">
-					<img src="img/Team/3.png" alt="">
+					<img src="img/Team/3.png"  class="img-responsive" lt="">
 					<figcaption>
 						<div class="h5">Раз два три</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam amet voluptatum incidunt suscipit facere</p>
@@ -381,7 +405,7 @@
 			</div>
 			<div class="slide_wrapper">
 				<figure class="team-slide">
-					<img src="img/Team/4.png" alt="">
+					<img src="img/Team/4.png"  class="img-responsive" lt="">
 					<figcaption>
 						<div class="h5">Раз два три</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam amet voluptatum incidunt suscipit facere</p>
@@ -400,7 +424,7 @@
 
 			<div class="slide_wrapper">
 				<figure class="team-slide">
-					<img src="img/Team/1.png" alt="">
+					<img src="img/Team/1.png"  class="img-responsive" lt="">
 					<figcaption>
 						<div class="h5">Раз два три</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam amet voluptatum incidunt suscipit facere</p>
@@ -416,7 +440,7 @@
 			</div>
 			<div class="slide_wrapper">
 				<figure class="team-slide">
-					<img src="img/Team/2.png" alt="">
+					<img src="img/Team/2.png"  class="img-responsive" lt="">
 					<figcaption>
 						<div class="h5">Раз два три</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam amet voluptatum incidunt suscipit facere</p>
@@ -432,7 +456,7 @@
 			</div>
 			<div class="slide_wrapper">
 				<figure class="team-slide">
-					<img src="img/Team/3.png" alt="">
+					<img src="img/Team/3.png"  class="img-responsive" lt="">
 					<figcaption>
 						<div class="h5">Раз два три</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam amet voluptatum incidunt suscipit facere</p>
@@ -448,7 +472,7 @@
 			</div>
 			<div class="slide_wrapper">
 				<figure class="team-slide">
-					<img src="img/Team/4.png" alt="">
+					<img src="img/Team/4.png"  class="img-responsive" lt="">
 					<figcaption>
 						<div class="h5">Раз два три</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam amet voluptatum incidunt suscipit facere</p>
@@ -467,7 +491,7 @@
 
 			<div class="slide_wrapper">
 				<figure class="team-slide">
-					<img src="img/Team/1.png" alt="">
+					<img src="img/Team/1.png"  class="img-responsive" lt="">
 					<figcaption>
 						<div class="h5">Раз два три</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam amet voluptatum incidunt suscipit facere</p>
@@ -483,7 +507,7 @@
 			</div>
 			<div class="slide_wrapper">
 				<figure class="team-slide">
-					<img src="img/Team/2.png" alt="">
+					<img src="img/Team/2.png"  class="img-responsive" lt="">
 					<figcaption>
 						<div class="h5">Раз два три</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam amet voluptatum incidunt suscipit facere</p>
@@ -499,7 +523,7 @@
 			</div>
 			<div class="slide_wrapper">
 				<figure class="team-slide">
-					<img src="img/Team/3.png" alt="">
+					<img src="img/Team/3.png"  class="img-responsive" lt="">
 					<figcaption>
 						<div class="h5">Раз два три</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam amet voluptatum incidunt suscipit facere</p>
@@ -515,7 +539,7 @@
 			</div>
 			<div class="slide_wrapper">
 				<figure class="team-slide">
-					<img src="img/Team/4.png" alt="">
+					<img src="img/Team/4.png"  class="img-responsive" lt="">
 					<figcaption>
 						<div class="h5">Раз два три</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam amet voluptatum incidunt suscipit facere</p>
@@ -543,22 +567,22 @@
 			<p><span class="fa fa-heart-o"></span></p>
 			<div class="container part_wrapper">
 				<div class="row">
-					<div class="col-md-3 fun_part">
+					<div class="col-sm-3 fun_part">
 						<img src="img/svg/clock.svg" alt="">
 						<div class="h4" id="counter1">0</div>
 						<p>hours of work</p>
 					</div>
-					<div class="col-md-3 fun_part">
+					<div class="col-sm-3 fun_part">
 						<img src="img/svg/clients.svg" alt="">
 						<div class="h4" id="counter2">0</div>
 						<p>Satisfied clients</p>
 					</div>
-					<div class="col-md-3 fun_part">
+					<div class="col-sm-3 fun_part">
 						<img src="img/svg/projects.svg" alt="">
 						<div class="h4" id="counter3">0</div>
 						<p>projects delivered</p>
 					</div>
-					<div class="col-md-3 fun_part">
+					<div class="col-sm-3 fun_part">
 						<img src="img/svg/awards.svg" alt="">
 						<div class="h4" id="counter4">0</div>
 						<p>awards won</p>
@@ -579,7 +603,7 @@
 			<div class="h5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aspernatur, non tenetur ipsum corrupti repellendus cum quibusdam laudantium sed facilis </div>
 			<div class="container form_wrapper">
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-xs-3 mark-xs">
 						<div class="h5">Cras at ultrices erat, sed vulputate!</div>
 						<p>2345 Setwant natrer, 1234,  <br>
 							Washington. United States. <br>
@@ -587,8 +611,8 @@
 							hello@brandi.com <br>
 							ww.brandi.com</p>
 					</div>
-					<div class="col-md-9">
-						<div class="col-md-11">
+					<div class="col-xs-9 mark-xs">
+						<div class="col-xs-11">
 							<div class="h4">Say hello!</div>
 							<form method="post" class="form">
 							<!-- Hidden Required Fields -->
@@ -602,7 +626,7 @@
 								<button><i class="fa fa-envelope-o mail"></i>Send message</button>
 							</form>
 						</div>
-						<div class="col-md-1">
+						<div class="col-xs-1 xs-links-del">
 							<div class="form_links">
 								<ul>
 									<li><a href="#" class="fa fa-behance"></a></li>
@@ -622,13 +646,14 @@
 
 <!-- End form_wrapper -->
 
-<!-- Map -->
+
 
 <div class="container-fluid">
 	<div class="row">	
-	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2794.588063718544!2d27.484136775235275!3d53.91470296287321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1497880091765" width="1920" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2794.588063718544!2d27.484136775235275!3d53.91470296287321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1497880091765" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div>
 </div>
+
 
 <!-- End Map -->
 
@@ -653,8 +678,8 @@
 								<p>eusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 							</div>
 						</div>
-						<div class="col-md-6">
-							<div class="col-md-6 list_side">
+						<div class="col-sm-12 col-md-6">
+							<div class=" col-sm-6 col-md-6 list_side">
 								<div class="h5">Explore</div>
 								<ul>
 								<li><a href="#">Envato</a></li>
@@ -670,7 +695,7 @@
 								<li><a href="#">Yahoo</a></li>
 								</ul>
 							</div>
-							<div class="col-md-6 right_side">
+							<div class="col-sm-6 col-md-6 right_side">
 								<div class="f_comp">
 									<p> Created with  <i class="fa fa-heart-o"></i> by <span>themecurve</span> , 
 										exclusive for creative showcase</p>
